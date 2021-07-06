@@ -1,5 +1,4 @@
 import React from "react";
-import Pdf from "../../editable-stuff/resume.pdf";
 
 import axios from "axios";
 
@@ -13,13 +12,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
 
   React.useEffect(() => {
     if (link && !pictureLinkRegex.test(link)) {
-      handleRequest();
-    } else {
-      setProfilePicUrl(link);
-    }
-  }, [link]);
-
-  const handleRequest = async () => {
+    const handleRequest = async () => {
     const instaLink = "https://www.instagram.com/";
     const instaQuery = "/?__a=1";
     try {
@@ -30,6 +23,12 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
       console.error(error.message);
     }
   };
+    } else {
+      setProfilePicUrl(link);
+    }
+  }, [link]);
+
+
 
   return (
     <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
