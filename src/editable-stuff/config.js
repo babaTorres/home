@@ -128,9 +128,26 @@ const experiences = {
   ]
 }
 
+const education = {
+  show: true,
+  heading: "Education",
+  data: [
+    {
+      role: 'B.S in Information Technology',// Here Add Company Name
+      companylogo: require('../assets/img/fiu logo.png'),
+      date: '2020',
+    },
+    {
+      role: 'Bachelor in Social Work',// Here Add Company Name
+      companylogo: require('../assets/img/fsu logo.png'),
+      date: '2018',
+    },
+  ]
+}
+
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, education };
