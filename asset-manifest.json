@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.cab6fb23.chunk.css",
+    "main.js": "/home/static/js/main.76208ba4.chunk.js",
+    "main.js.map": "/home/static/js/main.76208ba4.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.ce428e3d.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.ce428e3d.js.map",
+    "static/js/2.b55ec8da.chunk.js": "/home/static/js/2.b55ec8da.chunk.js",
+    "static/js/2.b55ec8da.chunk.js.map": "/home/static/js/2.b55ec8da.chunk.js.map",
+    "index.html": "/home/index.html",
+    "static/css/main.cab6fb23.chunk.css.map": "/home/static/css/main.cab6fb23.chunk.css.map",
+    "static/js/2.b55ec8da.chunk.js.LICENSE.txt": "/home/static/js/2.b55ec8da.chunk.js.LICENSE.txt",
+    "static/media/Brandon Torres Resume.pdf": "/home/static/media/Brandon Torres Resume.c5d0636f.pdf",
+    "static/media/UMlogo.png": "/home/static/media/UMlogo.db3487be.png",
+    "static/media/fsu logo.png": "/home/static/media/fsu logo.4b2612cc.png",
+    "static/media/hashirshoaeb.png": "/home/static/media/hashirshoaeb.23e8b5a1.png",
+    "static/media/propic.jpg": "/home/static/media/propic.fb92de5b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce428e3d.js",
+    "static/js/2.b55ec8da.chunk.js",
+    "static/css/main.cab6fb23.chunk.css",
+    "static/js/main.76208ba4.chunk.js"
+  ]
+}
